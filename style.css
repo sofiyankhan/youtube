@@ -1,0 +1,298 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* left top css */
+
+.left_top img {
+    height: 25px;
+    float: left;
+    padding-top: 8px;
+}
+
+.menu_icon {
+    float: left;
+    padding-right: 21px;
+    font-size: 20px;
+    padding-left: 12px;
+    color: #606060;
+}
+
+.left_top h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.left_top {
+    padding-top: 13px;
+    padding-bottom: 20px;
+    margin-left: 4px;
+    /* position: fixed; */
+}
+
+
+/* left-menu */
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-size: 21px;
+    color: #606060;
+    margin-left: -27px;
+    margin-right: 34px;
+}
+
+li {
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+a {
+    color: #606060;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: red;
+}
+
+.left_top_menu_1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.left_top_menu_2 {
+    border-bottom: 1px solid #ddd;
+    padding-top: 21px;
+}
+
+.left_top_menu_3 h2,
+.left_top_menu_4 h2 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #606060;
+    padding: 10px;
+}
+
+.left_top_menu_3 {
+    padding-top: 19px;
+}
+
+.left_top_menu_3 img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border-bottom: 1px solid #ddd;
+}
+
+.left_top_menu_4 {
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.left_top_menu_5 {
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.left_top_menu_bottom ul {
+    display: block;
+    margin-left: -28px;
+}
+
+.left_top_menu_bottom ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+.left_top_menu_bottom ul li a {
+    font-size: 11px;
+    padding-right: 6px;
+    font-weight: bold;
+    color: #606060;
+}
+
+
+/* Right-top css */
+
+.s_form {
+    float: left;
+    margin-left: 90px;
+}
+
+.s_form input.search {
+    padding-left: 17px;
+    padding-right: 357px;
+    border: 1px solid #ddd;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.s_form span {
+    background: #ddd;
+    font-size: 15px;
+    padding: 8px 26px;
+    margin-left: -70px;
+}
+
+.right_top {
+    padding-top: 23px;
+}
+
+.create {
+    float: left;
+    margin-left: 175px;
+}
+
+.apps {
+    float: left;
+}
+
+.alarm {
+    float: left;
+    position: relative;
+}
+
+.alarm p {
+    position: absolute;
+    top: -4px;
+    left: -18px;
+    background: #CC0000;
+    height: 18px;
+    width: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.account {
+    float: left;
+}
+
+i.fa.fa-video-camera {
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+i.fa.fa-th {
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+i.fa.fa-bell {
+    font-size: 18px;
+}
+
+.account p {
+    background: #d332bf85;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.mid_menu {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 54px;
+}
+
+.mid_menu ul {
+    display: block;
+}
+
+.mid_menu ul li {
+    display: inline-block;
+    padding: 5px;
+    background: #ddd;
+    border-radius: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.mid_menu ul li a {
+    color: black;
+}
+
+.content_area {
+    background: #dddddd2b;
+}
+
+.content_area .p {
+    padding: 20px;
+    border-top: 3px solid #ddd
+}
+
+.content_heading {
+    padding: 20px;
+}
+
+.content_heading h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #030303;
+}
+
+.head img {
+    width: 100%;
+}
+
+.body_img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.body_img span {
+    position: absolute;
+    top: 114px;
+    left: 249px;
+    font-size: 11px;
+    color: #fff;
+    background: #212529;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.body_text {
+    position: absolute;
+    top: 155px;
+    left: 52px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.body_text_footer {
+    margin-top: 83px;
+    font-size: 13px;
+    color: #343a40;
+    margin-left: 10px;
+}
+
+.left_menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: scroll;
+    max-height: 100%;
+    z-index: 999;
+    /* width: 300px; */
+}
+
+.col-md-10 {
+    margin-left: 223px;
+}
